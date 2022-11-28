@@ -1,13 +1,13 @@
 {
   "name": "cr-markdown",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "cr-markdown": "./bin/index"
+    "cr-markdown": "./bin/index.js"
   },
   "homepage": "https://github.com/langfan94/createMarkdown",
   "author": "langfan94",
