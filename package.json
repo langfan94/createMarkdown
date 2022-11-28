@@ -1,5 +1,5 @@
 {
-  "name": "@langfan94/generateMd",
+  "name": "create-markdown",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,8 @@
   "bin": {
     "generateMd": "./generateMd"
   },
-  "author": "edxiao",
+  "homepage": "https://github.com/langfan94/createMarkdown",
+  "author": "langfan94",
   "license": "ISC",
   "dependencies": {
     "commander": "^9.4.0",
