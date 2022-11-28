@@ -1,5 +1,5 @@
 {
-  "name": "commander",
+  "name": "@langfan/generateMd",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
