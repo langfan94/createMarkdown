@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 const path = require('path');
+const process = require('node:process');
 const { program } = require('commander');
 const fs = require('node:fs/promises');
 const matter = require('gray-matter');
@@ -21,7 +22,7 @@ async function createFile(opt) {
     filename,
     title,
   } = opt;
-  const directory = path.resolve(__dirname, output);
+  const directory = path.resolve(process.cwd(), output);
   const filePath = `${directory}/${filename}.md`;
   try {
     const isExist = await fileIsExist(filePath);
